@@ -940,18 +940,18 @@ input, select, textarea {
 		width: 100%;
 	}
 
-		table tbody tr {
+		table tbody tr { /* This creates the lines on top and bottom with no lines on left or right */
 			border: solid 1px #ffffff;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(255, 255, 255, 0.075);
+				background-color: rgba(255, 255, 255, 0.075); /* applies a subtle (7.5% opacity) white background behind text */
 			}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding: 0.75em 0.75em; /* sets padding values so adds space between border and text. first value sets top and bottom while second sets left and right */
 		}
 
 		table th {
@@ -963,7 +963,7 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #ffffff;
+			border-bottom: solid 2px #ffffff; /*  will apply a 2-pixel solid white border to the bottom edge of the table header (<thead>) element. */
 		}
 
 		table tfoot {
@@ -971,7 +971,7 @@ input, select, textarea {
 		}
 
 		table.alt {
-			border-collapse: separate;
+			border-collapse: separate; /* puts spaces between borders of each cell */
 		}
 
 			table.alt tbody tr td {
