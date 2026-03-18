@@ -1335,7 +1335,7 @@ input, select, textarea {
 				line-height: 2;
 			}
 
-		#header nav ul {
+		/* TESTING #header nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -1345,7 +1345,7 @@ input, select, textarea {
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
-		}
+		} */
 
 			#header nav ul li {
 				padding-left: 0;
